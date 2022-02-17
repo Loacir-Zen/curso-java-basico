@@ -7,7 +7,7 @@ public class Exercicio04 {
 		//pais A 80000 taxa de crescimento 3%
 		//pais B 200000 taxa de crescimento 1.5
 		int count = 0;
-		for(long a=80000, b=200000; a<b; a+=(80000*4)/100, b+=(200000*1.5)/100) {
+		for(long a=80000L, b=200000L; a<b; a+=(80000*4)/100, b+=(200000*1.5)/100) {
 			count++;
 			System.out.println("a -> " + a + "  -  b ->" + b);
 		}
